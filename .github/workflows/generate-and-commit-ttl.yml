@@ -1,0 +1,43 @@
+name: Generate WME Codelists as TTL files and commit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.yml'
+      - 'codelists/**.csv'
+
+jobs:
+  main:
+    runs-on: ubuntu-noble
+    strategy:
+      matrix:
+        python-version: ['3.12']
+    steps:
+      - uses: actions/checkout@v6.0.2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Generate TTL files
+        run: |
+          python3 scripts/codelists2ttl.py
+          mv wis/ /tmp
+      - name: checkout gh-pages branch
+        uses: actions/checkout@v6.0.2
+        with:
+          ref: gh-pages
+      - name: update gh-pages branch and publish
+        run: |
+          git config --global user.email "tomkralidis@gmail.com"
+          git config --global user.name "Tom Kralidis"
+          rm -rf wis/*
+          cp -rpf /tmp/wis/* .
+          if [[ `git status --porcelain` ]]; then
+            git add .
+            git commit -am "update WMCP2 Codelists TTL files"
+            git push
+          else
+            echo "No changes to push"
+          fi
