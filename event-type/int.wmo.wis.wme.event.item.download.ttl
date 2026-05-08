@@ -1,0 +1,9 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<int.wmo.wis.wme.event.item.download> a skos:Concept ;
+        rdfs:label "int.wmo.wis.wme.event.item.download" ;
+        skos:notation "int.wmo.wis.wme.event.item.download" ;
+        dct:description "Item download from a collection/dataset"@en ;
+        rdfs:isDefinedBy "None" .
