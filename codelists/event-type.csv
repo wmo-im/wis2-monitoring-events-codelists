@@ -1,7 +1,7 @@
 Name,Description,Source
-int.wmo.wis.wme.event,Generic event
-int.wmo.wis.wme.event.item.download,Item download from a collection/dataset
-int.wmo.wis.wme.event.metadata-archive,Metadata archive
-int.wmo.wis.wme.event.wcmp2.ets,WCMP2 ETS report
-int.wmo.wis.wme.event.wcmp2.kpi,WCMP2 KPI report
-int.wmo.wis.wme.event.wnm.validation,WNM validation
+int.wmo.wis.wme.event,Generic event,
+int.wmo.wis.wme.event.item.download,Item download from a collection/dataset,
+int.wmo.wis.wme.event.metadata-archive,Metadata archive,
+int.wmo.wis.wme.event.wcmp2.ets,WCMP2 ETS report,
+int.wmo.wis.wme.event.wcmp2.kpi,WCMP2 KPI report,
+int.wmo.wis.wme.event.wnm.validation,WNM validation,
