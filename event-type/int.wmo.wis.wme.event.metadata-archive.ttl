@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event.metadata-archive> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event.metadata-archive" ;
         skos:notation "int.wmo.wis.wme.event.metadata-archive" ;
-        dct:description "Metadata archive"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "Metadata archive"@en .

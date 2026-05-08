@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event.item.download> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event.item.download" ;
         skos:notation "int.wmo.wis.wme.event.item.download" ;
-        dct:description "Item download from a collection/dataset"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "Item download from a collection/dataset"@en .

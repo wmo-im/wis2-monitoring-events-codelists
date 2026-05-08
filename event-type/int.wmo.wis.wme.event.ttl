@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event" ;
         skos:notation "int.wmo.wis.wme.event" ;
-        dct:description "Generic event"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "Generic event"@en .

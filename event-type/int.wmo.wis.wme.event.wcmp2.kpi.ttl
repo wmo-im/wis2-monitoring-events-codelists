@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event.wcmp2.kpi> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event.wcmp2.kpi" ;
         skos:notation "int.wmo.wis.wme.event.wcmp2.kpi" ;
-        dct:description "WCMP2 KPI report"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "WCMP2 KPI report"@en .

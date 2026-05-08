@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event.wnm.validation> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event.wnm.validation" ;
         skos:notation "int.wmo.wis.wme.event.wnm.validation" ;
-        dct:description "WNM validation"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "WNM validation"@en .

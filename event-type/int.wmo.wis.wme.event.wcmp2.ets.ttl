@@ -5,5 +5,4 @@
 <int.wmo.wis.wme.event.wcmp2.ets> a skos:Concept ;
         rdfs:label "int.wmo.wis.wme.event.wcmp2.ets" ;
         skos:notation "int.wmo.wis.wme.event.wcmp2.ets" ;
-        dct:description "WCMP2 ETS report"@en ;
-        rdfs:isDefinedBy "None" .
+        dct:description "WCMP2 ETS report"@en .
