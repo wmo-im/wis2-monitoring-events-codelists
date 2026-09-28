@@ -1,5 +1,5 @@
 Name,Description,Source,Status
-int.wmo.wis.wme.event,Generic event,Experimental
+int.wmo.wis.wme.event,Generic event,Experimental,
 int.wmo.wis.wme.event.connection,Connection related event,Experimental
 int.wmo.wis.wme.event.item.cache,Event related to the caching of a data granule/item or metadata,Experimental
 int.wmo.wis.wme.event.item.download,Event related to data item download from a collection/dataset,Experimental
